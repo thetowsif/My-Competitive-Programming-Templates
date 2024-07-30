@@ -1,4 +1,12 @@
-#include "c_cp_custom.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+#include <ctype.h>
+#include <limits.h>
+#include <float.h>
+#include <time.h>
+#include <stdbool.h>
 
 #define OPTIMIZE_IO() {\
     setvbuf(stdout, NULL, _IONBF, 0); \
